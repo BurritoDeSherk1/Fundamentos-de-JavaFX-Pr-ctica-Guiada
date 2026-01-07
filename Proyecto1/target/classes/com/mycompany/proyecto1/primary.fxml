@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="15" alignment="CENTER"
+      xmlns="http://javafx.com/javafx/21"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.mycompany.proyecto1.PrimaryController">
+
+    <Label text="Suma de dos números" style="-fx-font-size: 18px;" />
+
+    <TextField fx:id="txtOp1" promptText="Operando 1" />
+    <TextField fx:id="txtOp2" promptText="Operando 2" />
+
+    <Button text="Sumar" onAction="#sumar" />
+
+    <TextField fx:id="txtResultado" promptText="Resultado" editable="false"/>
+
+</VBox>
